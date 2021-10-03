@@ -1,0 +1,5 @@
+# Refer https://github.com/zyrouge/pong#configuration for documentation
+
+urls:
+  - path: "https://iamraviraj.com"
+    type: "get"
