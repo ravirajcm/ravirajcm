@@ -11,7 +11,7 @@ jobs:
     name: A job to ping
     runs-on: ubuntu-latest
     env:
-      URL: "https://iamraviraj.com"
+      URL: {{ IAMRAVIRAJ_URL }}
     steps:
       - id: ping
         uses: sisodiya2421/pinger@master
